@@ -49,27 +49,20 @@ html, body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.300);
 }
 
-
-
-
-
-
-
-
 .sections{
     width: 100%;
     height: 700px;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .sections:nth-child(even){
     background-color: #F1F1F1;
 }
 
-
-
 #first_header{
-    position: absolute;
+    position: relative;
     width: 358px;
     height: 29px;
     left: 125px;
@@ -88,7 +81,7 @@ html, body{
 }
 
 #second_header{
-    position: absolute;
+    position: relative;
     width: 533px;
     height: 130px;
     left: 125px;
@@ -104,11 +97,11 @@ html, body{
 }
 
 #third_header{
-    position: absolute;
+    position: relative;
     width: 611px;
     height: 58px;
     left: 125px;
-    top: 298px;
+    top: 145px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -118,6 +111,7 @@ html, body{
 
     color: #3A3A3A;
 }
+
 #button2{
 
     box-sizing: border-box;
@@ -136,8 +130,8 @@ html, body{
     position: absolute;
     width: 214px;
     height: 44px;
-    left: 125px;
-    top: 387px;
+    left: 100px;
+    top: 400px;
 
 
     border: 1px solid #1698DA !important;
@@ -145,11 +139,11 @@ html, body{
 }
 
 #first_header2{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 110px;
     left: 125px;
-    top: 700px;
+    top: 80px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -161,11 +155,11 @@ html, body{
 }
 
 #second_header2{
-    position: absolute;
+    position: relative;
     width: 570px;
     height: 219.46px;
     left: 125px;
-    top: 770px;
+    top: 40px;
     
     font-family: 'Inter';
     font-style: normal;
